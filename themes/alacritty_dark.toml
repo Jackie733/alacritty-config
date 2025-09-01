@@ -1,0 +1,80 @@
+[colors]
+
+# 主要颜色
+[colors.primary]
+background = "#1a1a1a"        # 深灰背景，比纯黑更护眼
+foreground = "#e6e6e6"        # 浅灰前景，高对比度
+dim_foreground = "#b3b3b3"    # 暗淡前景
+bright_foreground = "#ffffff" # 明亮前景
+
+# 光标颜色
+[colors.cursor]
+text = "#1a1a1a"     # 光标内文字颜色
+cursor = "#00d4aa"   # 光标颜色，青绿色，醒目但不刺眼
+
+# 搜索高亮
+[colors.search.matches]
+foreground = "#1a1a1a"
+background = "#ffcc00"     # 黄色高亮，清晰可见
+
+[colors.search.focused_match]
+foreground = "#1a1a1a"
+background = "#ff6600"     # 橙色当前匹配
+
+# 选择区域
+[colors.selection]
+text = "CellForeground"
+background = "#3d4148"       # 中性灰选择背景
+
+# 标准颜色 (0-7)
+[colors.normal]
+black   = "#2e3440"          # 深蓝灰
+red     = "#ff6b6b"          # 柔和红色，清晰但不刺眼
+green   = "#51c784"          # 清新绿色
+yellow  = "#ffd93d"          # 明亮黄色
+blue    = "#6ab7ff"          # 清晰蓝色
+magenta = "#d983d9"          # 柔和紫色
+cyan    = "#4dd0e1"          # 清亮青色
+white   = "#e5e5e5"          # 浅灰白色
+
+# 高亮颜色 (8-15)
+[colors.bright]
+black   = "#4c566a"          # 中性灰
+red     = "#ff8a80"          # 明亮红色
+green   = "#69f0ae"          # 明亮绿色
+yellow  = "#ffff8d"          # 明亮黄色
+blue    = "#82b1ff"          # 明亮蓝色
+magenta = "#ea80fc"          # 明亮紫色
+cyan    = "#84ffff"          # 明亮青色
+white   = "#ffffff"          # 纯白
+
+# 暗淡颜色 (可选，用于某些终端应用)
+[colors.dim]
+black   = "#1e2029"
+red     = "#cc5555"
+green   = "#41a368"
+yellow  = "#ccaa33"
+blue    = "#5588cc"
+magenta = "#aa77bb"
+cyan    = "#3d9999"
+white   = "#b3b3b3"
+
+# Vi 模式光标颜色 (可选)
+[colors.vi_mode_cursor]
+text = "#1a1a1a"
+cursor = "#ff6600"
+
+# 搜索栏颜色 (可选)
+[colors.footer_bar]
+background = "#2e3440"
+foreground = "#e6e6e6"
+
+# 提示信息颜色 (可选)
+[colors.hints]
+start = { foreground = "#1a1a1a", background = "#ffd93d" }
+end = { foreground = "#1a1a1a", background = "#ff6600" }
+
+# 行指示器颜色 (可选)
+[colors.line_indicator]
+foreground = "None"
+background = "None"

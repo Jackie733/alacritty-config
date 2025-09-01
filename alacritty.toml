@@ -1,0 +1,128 @@
+[general]
+# import = ["/mnt/c/Users/Jackie/AppData/Roaming/alacritty/themes/tokyo-night-enhanced.toml"]
+# import = ["/mnt/c/Users/Jackie/AppData/Roaming/alacritty/themes/nord.toml"]
+import = ["/mnt/c/Users/Jackie/AppData/Roaming/alacritty/themes/alacritty_dark.toml"]
+live_config_reload = true
+
+[env]
+COLORTERM = "truecolor"
+
+[window]
+padding = { x = 2, y = 0 }
+opacity = 1
+
+[font]
+size = 13.0
+
+[font.offset]
+x = 1
+y = 0
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[font.normal]
+# family = "JetBrainsMono Nerd Font"
+family = "Iosevka Nerd Font Mono"
+# family = "Maple Mono Normal NF CN"
+style = "Medium"
+
+[font.bold]
+style = "Bold"
+
+[font.italic]
+style = "Italic"
+
+[font.bold_italic]
+style = "Bold Italic"
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+unfocused_hollow = true
+
+[cursor.style]
+shape = 'Beam'
+
+[terminal.shell]
+program = "wsl"
+args = ["~"]
+
+# 键盘快捷键配置
+[[keyboard.bindings]]
+key = "C"
+mods = "Control|Shift"
+action = "Copy"
+
+[[keyboard.bindings]]
+key = "V"
+mods = "Control|Shift"
+action = "Paste"
+
+# 可选：使用 Ctrl+C 和 Ctrl+V（Windows 风格）
+[[keyboard.bindings]]
+key = "C"
+mods = "Control"
+action = "Copy"
+mode = "Vi|~Search"
+
+[[keyboard.bindings]]
+key = "V"
+mods = "Control"
+action = "Paste"
+
+# 搜索功能
+[[keyboard.bindings]]
+key = "F"
+mods = "Control|Shift"
+action = "SearchForward"
+
+[[keyboard.bindings]]
+key = "B"
+mods = "Control|Shift"
+action = "SearchBackward"
+
+# 字体大小调整
+[[keyboard.bindings]]
+key = "Plus"
+mods = "Control"
+action = "IncreaseFontSize"
+
+[[keyboard.bindings]]
+key = "Minus"
+mods = "Control"
+action = "DecreaseFontSize"
+
+[[keyboard.bindings]]
+key = "Key0"
+mods = "Control"
+action = "ResetFontSize"
+
+# 新窗口/标签页（如果支持）
+[[keyboard.bindings]]
+key = "T"
+mods = "Control|Shift"
+action = "CreateNewWindow"
+
+# 滚动
+[[keyboard.bindings]]
+key = "PageUp"
+mods = "Shift"
+action = "ScrollPageUp"
+
+[[keyboard.bindings]]
+key = "PageDown"
+mods = "Shift"
+action = "ScrollPageDown"
+
+[[keyboard.bindings]]
+key = "Home"
+mods = "Shift"
+action = "ScrollToTop"
+
+[[keyboard.bindings]]
+key = "End"
+mods = "Shift"
+action = "ScrollToBottom"
