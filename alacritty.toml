@@ -1,7 +1,8 @@
 [general]
 # import = ["/mnt/c/Users/Jackie/AppData/Roaming/alacritty/themes/tokyo-night-enhanced.toml"]
 # import = ["/mnt/c/Users/Jackie/AppData/Roaming/alacritty/themes/nord.toml"]
-import = ["/mnt/c/Users/Jackie/AppData/Roaming/alacritty/themes/alacritty_dark.toml"]
+# import = ["/mnt/c/Users/Jackie/AppData/Roaming/alacritty/themes/alacritty_dark.toml"]
+import = ["/mnt/c/Users/Jackie/AppData/Roaming/alacritty/themes/kanagawa_dragon.toml"]
 live_config_reload = true
 
 [env]
@@ -12,7 +13,7 @@ padding = { x = 2, y = 0 }
 opacity = 1
 
 [font]
-size = 12.5
+size = 11
 builtin_box_drawing = false
 
 [font.offset]
@@ -24,8 +25,8 @@ x = 0
 y = 1
 
 [font.normal]
-# family = "JetBrainsMono Nerd Font"
-family = "Iosevka Nerd Font Mono"
+family = "JetBrainsMono Nerd Font"
+# family = "Iosevka Nerd Font Mono"
 # family = "Maple Mono Normal NF CN"
 style = "Medium"
 
