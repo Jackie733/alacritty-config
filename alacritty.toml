@@ -1,19 +1,23 @@
 [general]
-# import = ["/mnt/c/Users/Jackie/AppData/Roaming/alacritty/themes/tokyo-night-enhanced.toml"]
-# import = ["/mnt/c/Users/Jackie/AppData/Roaming/alacritty/themes/nord.toml"]
-# import = ["/mnt/c/Users/Jackie/AppData/Roaming/alacritty/themes/alacritty_dark.toml"]
-import = ["/mnt/c/Users/Jackie/AppData/Roaming/alacritty/themes/kanagawa_dragon.toml"]
+# import = ["C:\\Users\\Jackie\\AppData\\Roaming\\alacritty\\themes\\tokyo-night-enhanced.toml"]
+# import = ["C:\\Users\\Jackie\\AppData\\Roaming\\alacritty\\themes\\tokyonight-day.toml"]
+# import = ["C:\\Users\\Jackie\\AppData\\Roaming\\alacritty\\themes\\nord.toml"]
+# import = ["C:\\Users\\Jackie\\AppData\\Roaming\\alacritty\\themes\\alacritty_dark.toml"]
+import = ["C:\\Users\\Jackie\\AppData\\Roaming\\alacritty\\themes\\kanagawa_dragon.toml"]
+# import = ["C:\\Users\\Jackie\\AppData\\Roaming\\alacritty\\themes\\kanagawa_lotus.toml"]
 live_config_reload = true
 
 [env]
 COLORTERM = "truecolor"
 
 [window]
+decorations = "full"
 padding = { x = 2, y = 0 }
-opacity = 1
+opacity = 0.96
+blur = true
 
 [font]
-size = 11
+size = 12.5
 builtin_box_drawing = false
 
 [font.offset]
@@ -25,20 +29,20 @@ x = 0
 y = 1
 
 [font.normal]
-family = "JetBrainsMono Nerd Font"
-# family = "Iosevka Nerd Font Mono"
+# family = "JetBrainsMono Nerd Font"
+family = "Iosevka Nerd Font Mono"
 # family = "Maple Mono Normal NF CN"
-style = "Medium"
+# family = "FiraCode Nerd Font Mono"
 
 [font.bold]
 style = "Bold"
 
-[font.italic]
-style = "Italic"
-
-[font.bold_italic]
-style = "Bold Italic"
-
+# [font.italic]
+# style = "Italic"
+#
+# [font.bold_italic]
+# style = "Bold Italic"
+#
 [selection]
 save_to_clipboard = true
 
