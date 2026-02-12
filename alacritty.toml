@@ -17,7 +17,7 @@ opacity = 0.96
 blur = true
 
 [font]
-size = 12.5
+size = 12
 builtin_box_drawing = false
 
 [font.offset]
