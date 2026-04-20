@@ -2,8 +2,8 @@
 # import = ["C:\\Users\\Jackie\\AppData\\Roaming\\alacritty\\themes\\tokyo-night-enhanced.toml"]
 # import = ["C:\\Users\\Jackie\\AppData\\Roaming\\alacritty\\themes\\tokyonight-day.toml"]
 # import = ["C:\\Users\\Jackie\\AppData\\Roaming\\alacritty\\themes\\nord.toml"]
-# import = ["C:\\Users\\Jackie\\AppData\\Roaming\\alacritty\\themes\\alacritty_dark.toml"]
-import = ["C:\\Users\\Jackie\\AppData\\Roaming\\alacritty\\themes\\kanagawa_dragon.toml"]
+import = ["C:\\Users\\Jackie\\AppData\\Roaming\\alacritty\\themes\\alacritty_dark.toml"]
+# import = ["C:\\Users\\Jackie\\AppData\\Roaming\\alacritty\\themes\\kanagawa_dragon.toml"]
 # import = ["C:\\Users\\Jackie\\AppData\\Roaming\\alacritty\\themes\\kanagawa_lotus.toml"]
 live_config_reload = true
 
@@ -12,25 +12,25 @@ COLORTERM = "truecolor"
 
 [window]
 decorations = "full"
-padding = { x = 2, y = 0 }
-opacity = 0.96
-blur = true
+padding = { x = 2, y = 2 }
+opacity = 1.0
+blur = false
 
 [font]
 size = 12
-builtin_box_drawing = false
+builtin_box_drawing = true
 
 [font.offset]
-x = 1
+x = 0
 y = 0
 
 [font.glyph_offset]
 x = 0
-y = 1
+y = 0
 
 [font.normal]
-# family = "JetBrainsMono Nerd Font"
-family = "Iosevka Nerd Font Mono"
+family = "JetBrainsMono Nerd Font"
+# family = "Iosevka Nerd Font Mono"
 # family = "Maple Mono Normal NF CN"
 # family = "FiraCode Nerd Font Mono"
 
@@ -53,8 +53,8 @@ unfocused_hollow = true
 shape = 'Beam'
 
 [terminal.shell]
-program = "wsl"
-args = ["~"]
+program = "wsl.exe"
+args = ["--cd", "~"]
 
 # 键盘快捷键配置
 [[keyboard.bindings]]
